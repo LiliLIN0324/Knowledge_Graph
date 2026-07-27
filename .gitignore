@@ -1,14 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
 *.csv
-*.html
-*.txt
-*/
 *.zip
 *.pkl
 *.npy
 *.state
 *.id2word
-0.26.0
-0.26.0'
-lda_model
-Method5_BerTopic_fine_tuning_shanghai.ipynb
-Method5_BerTopic_fine_tuning.ipynb
+*.json
+
+# Models
+*.safetensors
+*.bin
+
+# NLP cache
+punkt/
+punkt_tab/
+averaged_perceptron_tagger_eng/
+*vocab.txt
+# IDE
+.idea/
